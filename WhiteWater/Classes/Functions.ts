@@ -161,12 +161,14 @@ namespace WhiteWater {
     export function optionMenu(): void {
         gamestate = GAMESTATE.OPTIONS;
         console.log(gamestate);
+        (<HTMLInputElement>document.getElementById("MasterVolumeMainMenu")).value = masterVolume.toString();
         document.getElementById("optionMenu").style.display = "inline";
     }
 
     export function optionMenuInGame(): void {
         gamestate = GAMESTATE.OPTIONS;
         console.log(gamestate);
+        (<HTMLInputElement>document.getElementById("MasterVolume")).value = masterVolume.toString();
         document.getElementById("optionMenuInGame").style.display = "inline";
     }
 
