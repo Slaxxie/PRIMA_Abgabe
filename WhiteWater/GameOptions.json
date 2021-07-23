@@ -1,6 +1,6 @@
 {
     "gameValueObject": {
-        "deflectorShieldCooldownMax": 900,
+        "deflectorShieldCooldownMax": 1500,
         "invulnerableEnd": 180,
         "timeWarpEnd": 300,
         "movementSpeed": 8,

@@ -306,19 +306,19 @@ namespace WhiteWater {
     export function modifySpawn(): void {
         switch (level) {
             case 1: {
-                spawnCounterMax = 55;
-                break;
-            }
-            case 5: {
                 spawnCounterMax = 50;
                 break;
             }
-            case 10: {
+            case 5: {
                 spawnCounterMax = 40;
                 break;
             }
+            case 10: {
+                spawnCounterMax = 33;
+                break;
+            }
             case 15: {
-                spawnCounterMax = 30;
+                spawnCounterMax = 26;
                 break;
             }
             case 20: {
