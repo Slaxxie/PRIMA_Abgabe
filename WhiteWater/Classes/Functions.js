@@ -161,12 +161,14 @@ var WhiteWater;
     function optionMenu() {
         WhiteWater.gamestate = WhiteWater.GAMESTATE.OPTIONS;
         console.log(WhiteWater.gamestate);
+        document.getElementById("MasterVolumeMainMenu").value = WhiteWater.masterVolume.toString();
         document.getElementById("optionMenu").style.display = "inline";
     }
     WhiteWater.optionMenu = optionMenu;
     function optionMenuInGame() {
         WhiteWater.gamestate = WhiteWater.GAMESTATE.OPTIONS;
         console.log(WhiteWater.gamestate);
+        document.getElementById("MasterVolume").value = WhiteWater.masterVolume.toString();
         document.getElementById("optionMenuInGame").style.display = "inline";
     }
     WhiteWater.optionMenuInGame = optionMenuInGame;

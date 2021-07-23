@@ -203,6 +203,7 @@ var WhiteWater;
         }
         WhiteWater.viewport.draw();
     }
+    //Start Game
     function gameStart() {
         WhiteWater.gamestate = WhiteWater.GAMESTATE.PLAYING;
         WhiteWater.sfxPlayer.menuSound(false);
