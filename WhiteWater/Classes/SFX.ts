@@ -53,7 +53,7 @@ namespace WhiteWater {
             this.cmpAudioLvlUp.connect(true);
             this.cmpAudioLvlUp.volume = 1 * masterVolume;
 
-            this.audioMainMenu = new ƒ.Audio("./sounds/main_menu.wav");
+            this.audioMainMenu = new ƒ.Audio("./sounds/main_menu.mp3");
             this.cmpAudioMainMenu = new ƒ.ComponentAudio(this.audioMainMenu, false, false);
             this.cmpAudioMainMenu.connect(true);
             this.cmpAudioMainMenu.volume = 0.6 * masterVolume;
@@ -68,7 +68,7 @@ namespace WhiteWater {
             this.cmpAudioTimewarpActive.connect(true);
             this.cmpAudioTimewarpActive.volume = 1 * masterVolume;
 
-            this.audioSoundtrack = new ƒ.Audio("./sounds/soundtrack.wav");
+            this.audioSoundtrack = new ƒ.Audio("./sounds/soundtrack.mp3");
             this.cmpAudioSoundtrack = new ƒ.ComponentAudio(this.audioSoundtrack, false, false);
             this.cmpAudioSoundtrack.connect(true);
             this.cmpAudioSoundtrack.volume = 0.6 * masterVolume;
