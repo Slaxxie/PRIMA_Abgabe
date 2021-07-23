@@ -1,0 +1,397 @@
+.hidden {
+    display: none;
+}
+
+.interface {
+    display: none;
+    z-index: 50;
+    position: absolute;
+    color: orange;
+    left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game_canvas {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+}
+
+#mainMenu {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+}
+
+#optionMenu {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+}
+
+#optionMenuInGame {
+    background-image: url("./Pics/ingameMenu.png");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+}
+
+#pauseMenu {
+    background-image: url("./Pics/ingamePauseMenu.png");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 160px;
+    left: 260px;
+}
+
+#gameOverMenu {
+    background-image: url("./Pics/ingameGameOverMenu.png");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 160px;
+    left: 260px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#gameOverInput {
+    left: 60px;
+    top: 120px;
+    position: absolute;
+    color: orange;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+#insertUsernameLabel {
+    left: 60px;
+    top: 100px;
+    position: absolute;
+}
+
+#pressEnter {
+    left: 40px;
+    top: 180px;
+    position: absolute;
+}
+
+#highscoreMenu {
+    background-image: url("./Pics/menubackHighScore.png");
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+}
+
+#start {
+    background-image: url("./Pics/buttonStart.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 380px;
+    left: -8px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#start:hover {
+    left: 1px;
+}
+
+#option {
+    background-image: url("./Pics/buttonOptions.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 445px;
+    left: -8px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option:hover {
+    left: 1px;
+}
+
+#highscore {
+    background-image: url("./Pics/buttonHighscore.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 510px;
+    left: -8px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#highscore:hover {
+    left: 1px;
+}
+
+#continue {
+    background-image: url("./Pics/buttonContinue.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 70px;
+    left: 34px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#continue:hover {
+    width: 200px;
+    height: 50px;
+    top: 68px;
+    left: 29px;
+}
+
+#option2 {
+    background-image: url("./Pics/buttonOptions.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 135px;
+    left: 34px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option2:hover {
+    width: 200px;
+    height: 50px;
+    top: 133px;
+    left: 29px;
+}
+
+#optionMenuInGame {
+    background-image: url("./Pics/ingameOptionsMenu.png");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 160px;
+    left: 260px;
+}
+
+#exit2 {
+    background-image: url("./Pics/buttonBack.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 200px;
+    left: 34px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#exit2:hover {
+    width: 200px;
+    height: 50px;
+    top: 198px;
+    left: 29px;
+}
+
+#back {
+    background-image: url("./Pics/buttonBack.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 200px;
+    left: 34px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#back:hover {
+    width: 200px;
+    height: 50px;
+    top: 198px;
+    left: 29px;
+}
+
+#backMain {
+    background-image: url("./Pics/buttonBack.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 380px;
+    left: -8px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#backMain:hover {
+    left: 1px;
+}
+
+#backMainFromHS {
+    background-image: url("./Pics/buttonBack.png");
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 380px;
+    left: -8px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#backMainFromHS:hover {
+    left: 1px;
+}
+
+input[type=range] {
+    width: 30%;
+}
+
+#highscoreTable {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    top: 170px;
+    left: 300px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 25%;
+    color: aliceblue;
+    text-align: center;
+}
+
+td,
+th {
+    width: 70px;
+    padding: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #009b866e;
+}
+
+tr:nth-child(odd) {
+    background-color: #882f2f80;
+}
+
+button {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    font-size: 24px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin: 0 10px;
+}
+
+#UI-Level {
+    left: 666px;
+    top: 112px;
+    width: 50px;
+    text-align: right;
+}
+
+#UI-Points {
+    left: 735px;
+    top: 173px;
+    width: 50px;
+    text-align: right;
+}
+
+#UI-Timewarp {
+    left: 34px;
+    top: 516px;
+    text-align: left;
+}
+
+#UI-Shield {
+    left: 34px;
+    top: 434px;
+    text-align: left;
+}
+
+#UI-CurrentLives {
+    left: 110px;
+    top: 274px;
+    text-align: right;
+}
+
+#UI-MaxLives {
+    left: 110px;
+    top: 324px;
+    text-align: right;
+}
+
+#MasterVolumeMainMenu {
+    position: absolute;
+    z-index: 50;
+    top: 250px;
+    left: 280px;
+}
+
+#MasterVolumeMainMenuTag {
+    position: absolute;
+    z-index: 50;
+    top: 220px;
+    left: 335px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#MasterVolume {
+    position: absolute;
+    z-index: 50;
+    top: 130px;
+    left: 30px;
+}
+
+#MasterVolumeTag {
+    position: absolute;
+    z-index: 50;
+    top: 100px;
+    left: 85px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

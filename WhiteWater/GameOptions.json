@@ -1,0 +1,16 @@
+{
+    "gameValueObject": {
+        "deflectorShieldCooldownMax": 900,
+        "invulnerableEnd": 180,
+        "timeWarpEnd": 300,
+        "movementSpeed": 8,
+        "velocityMod": 4,
+        "bigLootPropability": 0.15,
+        "reward": 100,
+        "rewardFactor": 3,
+        "maxLives": 3,
+        "levelProgressBase": 200,
+        "levelProgressModifier": 50,
+        "asteroidDamage": 1
+    }
+}

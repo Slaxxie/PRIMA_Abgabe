@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ENTER THE ASTEROIDS</title>
+    <link rel="shortcut icon" href="#">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="WhiteWater.css">
+    <script src='../FudgeCore/FudgeCore.js'></script>
+    <script src='./Classes/SFX.js'></script>
+    <script src='./Classes/Variables.js'></script>
+    <script src='./Classes/GameState.js'></script>
+    <script src='./Classes/TextureLoader.js'></script>
+    <script src='./Classes/Functions.js'></script>
+    <script src='./Classes/UserInterface.js'></script>
+    <script src='./Classes/QuadNode.js'></script>
+    <script src='./Classes/Loot.js'></script>
+    <script src='./Classes/Rock.js'></script>
+    <script src='./Classes/Player.js'></script>
+    <script src='./Classes/Deflector.js'></script>
+    <script src='./Classes/ScrollingBackground.js'></script>
+    <script src='WhiteWater.js'></script>
+
+
+</head>
+
+<body>
+    <canvas width="800" height="600" id="game_canvas"></canvas>
+    <div class="hidden" id="mainMenu">
+        <img src="./Pics/mainMenuBackground800600.png">
+        <button id="start"></button>
+        <button id="option"></button>
+        <button id="highscore"></button>
+    </div>
+
+    <div class="hidden" id="optionMenu">
+        <img src="./Pics/menubackOptions.png">
+        <input id="MasterVolumeMainMenu" type="range" step="10" value="50">
+        <div id="MasterVolumeMainMenuTag">
+            Master Volume
+        </div>
+        <button id="backMain"></button>
+
+    </div>
+
+    <div class="hidden" id="gameOverMenu">
+        <label id="insertUsernameLabel">Insert Username: </label>
+        </br>
+        <input type="text" id="gameOverInput" maxlength="10">
+        <label id="pressEnter">Press ENTER to confirm! </label>
+    </div>
+
+    <div class="hidden" id="highscoreMenu">
+        <div class="table">
+            <table id="highscoreTable">
+            </table>
+        </div>
+        <button id="backMainFromHS"></button>
+
+    </div>
+
+    <div class="hidden" id="pauseMenu">
+        <button id="continue"></button>
+        <button id="option2"></button>
+        <button id="exit2"></button>
+    </div>
+
+    <div class="hidden" id="optionMenuInGame">
+        <div class="container">
+            <input id="MasterVolume" type="range" step="10" value="50">
+            <div id="MasterVolumeTag">
+                Master Volume
+            </div>
+            <button id="back"></button>
+        </div>
+    </div>
+    <div class="interface" id="UI-Level">
+        1
+    </div>
+    <div class="interface" id="UI-Points">
+        0
+    </div>
+    <div class="interface" id="UI-Timewarp">
+        CHARGES: 0
+    </div>
+    <div class="interface" id="UI-Shield">
+        AVAILABLE
+    </div>
+    <div class="interface" id="UI-CurrentLives">
+        3
+    </div>
+    <div class="interface" id="UI-MaxLives">
+        3
+    </div>
+</body>
+
+</html>
